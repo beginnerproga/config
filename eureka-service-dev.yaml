@@ -1,2 +1,3 @@
 eureka:
-  hostname: eureka-service
+  instance:
+    hostname: eureka-service
