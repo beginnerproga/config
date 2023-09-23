@@ -2,5 +2,3 @@ eureka:
   instance:
     hostname: eureka-service
 
-test:
-  good: DEV
