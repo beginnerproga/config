@@ -3,3 +3,6 @@ spring:
     url: jdbc:postgresql://${DATABASE_URL:localhost}:5432/postgres
     username: postgres
     password: postgres
+
+eureka:
+  service-url: http://eureka.hostname:8761/eureka/
