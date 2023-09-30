@@ -5,4 +5,5 @@ spring:
     password: postgres
 
 eureka:
-  service-url: http://eureka.hostname:8761/eureka/
+  service-url:
+    default-zone: http://eureka.hostname:8761/eureka/
