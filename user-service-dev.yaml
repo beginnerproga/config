@@ -4,4 +4,4 @@ spring:
     username: postgres
     password: postgres
 test:
-  good: DEV
+  good: ${VALUE:DEFAULT}
