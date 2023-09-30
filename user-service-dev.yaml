@@ -3,5 +3,3 @@ spring:
     url: jdbc:postgresql://${DATABASE_URL:localhost}:5432/postgres
     username: postgres
     password: postgres
-test:
-  good: ${VALUE:DEFAULT}
